@@ -1,0 +1,166 @@
+.header {
+    padding: 10px;
+    margin: 10px;
+    height: 15em;
+    width: -webkit-fill-available;
+    text-align: center;
+    background: #5cd6b3;
+    color: white;
+    font-size: 1em;
+    font-family: 'Shantell Sans', cursive;
+  }
+
+  .formulario {
+    text-align: center;
+    background-color: #69d6f4;
+    font-family: 'Shantell Sans', cursive;
+    width: -webkit-fill-available;
+  }
+
+  .header2 {
+    padding: 10px;
+    margin: 10px;
+    height: 15em;
+    width: -webkit-fill-available;
+    text-align: center;
+    background: #ff826e;
+    color: white;
+    font-size: 1em;
+    font-family: 'Shantell Sans', cursive;
+  }
+
+  .header3 {
+    padding: 10px;
+    margin: 10px;
+    height: 15em;
+    width: -webkit-fill-available;
+    text-align: center;
+    background: #ffeaa7;
+    color: white;
+    font-size: 1em;
+    font-family: 'Shantell Sans', cursive;
+  }
+
+  .header4 {
+    padding: 10px;
+    margin: 10px;
+    height: 15em;
+    width: -webkit-fill-available;
+    text-align: center;
+    background: #69d6f4;
+    color: white;
+    font-size: 1em;
+    font-family: 'Shantell Sans', cursive;
+  }
+
+.column1  {
+  float: left;
+  width: 20%;
+  padding: 0em;
+  height: 20%; 
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100px; 
+  }
+
+.column3 {
+  float: right;
+  width: 20%;
+  padding: 0em;
+  height: 20%; 
+}
+
+p {
+  font-family: 'Shantell Sans', cursive;
+}
+
+.Antecedentes {
+  font-family: 'Shantell Sans', cursive;
+  font-size: x-large;
+  font-style: italic;
+}
+
+.imagen-centrada {
+  margin: 0.1em auto 0.1em;
+  display: block;
+}
+
+h3 {
+  font-family: 'Shantell Sans', cursive;
+}
+
+button.Experiencia {
+  color: #090909;
+  padding: 0.8em;
+  width: -webkit-fill-available;
+  margin: 5px;
+  font-size: 40px;
+  border-radius: 0.5em;
+  background: #ff826e;
+  border: 1px solid #e8e8e8;
+  transition: all .3s;
+  box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+  font-family: 'Shantell Sans', cursive;
+}
+
+button.Experiencia:hover {
+  border: 1px solid white;
+}
+
+button.Experiencia:active {
+  box-shadow: 4px 4px 12px #c5c5c5,
+             -4px -4px 12px #ffffff;
+}
+
+button.Formacion {
+  color: #090909;
+  padding: 0.8em;
+  width: -webkit-fill-available;
+  margin: 5px;
+  font-size: 40px;
+  border-radius: 0.5em;
+  background: #ffeaa7;
+  border: 1px solid #e8e8e8;
+  transition: all .3s;
+  box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+  font-family: 'Shantell Sans', cursive;
+}
+
+button.Formacion:hover {
+  border: 1px solid white;
+}
+
+button.Formacion:active {
+  box-shadow: 4px 4px 12px #c5c5c5,
+             -4px -4px 12px #ffffff;
+}
+
+button.Contacto {
+  color: #090909;
+  padding: 0.8em;
+  width: -webkit-fill-available;
+  margin: 5px;
+  font-size: 40px;
+  border-radius: 0.5em;
+  background: #69d6f4;
+  border: 1px solid #e8e8e8;
+  transition: all .3s;
+  box-shadow: 6px 6px 12px #c5c5c5,
+             -6px -6px 12px #ffffff;
+  font-family: 'Shantell Sans', cursive;
+}
+
+button.Contacto:hover {
+  border: 1px solid white;
+}
+
+button.Contacto:active {
+  box-shadow: 4px 4px 12px #c5c5c5,
+             -4px -4px 12px #ffffff;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type= "text/css" rel="styleSheet" href="estilo.css" media=all>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
+    <title>Formulario de Contacto</title>
+</head>
+<body>
+
+    <div class="header4">
+        <div class="row">
+            <div class="column1">
+                <img src="https://images.vexels.com/media/users/3/154431/isolated/preview/1b0612bca0cd99911b17c88392db70ca-icono-de-contacto-de-soporte-al-cliente.png" alt="Tamara Pérez" width="80%"></div>
+            <div class="column2">
+                <h1>Formulario de contacto</h1></div>
+            <div class="column3">
+                <img src="https://cdn-icons-png.flaticon.com/512/2462/2462982.png" alt="Tamara Pérez" width="80%"></div>
+          </div>
+        </div>
+
+    <div class="contact_form">
+
+    <div class="formulario" display="span">      
+        <h3>Si te interesó mi trabajo y querés contactarme, por favor completa el siguiente formulario</h3>
+
+
+          <form action="#" method="post">       
+
+            
+                <p>
+                  <label for="nombre" class="escribir_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="escribir_nombre" id="nombre" required="obligatorio" placeholder="Escribí tu nombre">
+                </p>
+              
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="escribir_email" id="email" required="obligatorio" placeholder="Escribí tu Email">
+                </p>
+            
+                <p>
+                  <label for="telefono" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribí tu teléfono">
+                </p>     
+              
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                 <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Dejá aquí tu mensaje"></textarea> 
+                </p>                    
+              
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+            
+          </form>
+    </div>  
+  </div>
+
+</body>
+</html>
